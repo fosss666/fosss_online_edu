@@ -1,0 +1,4 @@
+2022-09-03 12:03:57.450 [http-nio-8001-exec-9] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - Source must not be null
+2022-09-03 20:07:02.987 [http-nio-8001-exec-4] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - OrderClient#isBought(String,String) failed and no fallback available.
+2022-09-03 20:07:07.140 [http-nio-8001-exec-9] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - OrderClient#isBought(String,String) failed and no fallback available.
+2022-09-03 20:08:05.615 [http-nio-8001-exec-7] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - OrderClient#isBought(String,String) failed and no fallback available.

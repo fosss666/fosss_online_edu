@@ -1,0 +1,16 @@
+2022-09-04 15:14:15.795 [http-nio-8001-exec-5] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - OrderClient#isBought(String,String) failed and no fallback available.
+2022-09-04 15:14:15.795 [http-nio-8001-exec-3] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - OrderClient#isBought(String,String) failed and no fallback available.
+2022-09-04 15:14:51.983 [http-nio-8001-exec-8] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - OrderClient#isBought(String,String) failed and no fallback available.
+2022-09-04 15:14:52.701 [http-nio-8001-exec-9] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - OrderClient#isBought(String,String) failed and no fallback available.
+2022-09-04 15:18:14.022 [http-nio-8001-exec-10] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - null
+2022-09-04 15:27:39.699 [http-nio-8001-exec-7] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - null
+2022-09-04 15:35:17.652 [http-nio-8001-exec-1] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - null
+2022-09-04 15:36:16.331 [http-nio-8001-exec-8] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - null
+2022-09-04 15:37:07.219 [http-nio-8001-exec-7] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - null
+2022-09-04 15:57:01.796 [http-nio-8001-exec-1] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2022-09-04 16:08:53.027 [http-nio-8001-exec-6] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - null
+2022-09-04 16:11:54.197 [http-nio-8001-exec-10] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2022-09-04 16:14:20.993 [http-nio-8001-exec-9] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - null
+2022-09-04 16:17:57.042 [http-nio-8001-exec-8] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2022-09-04 16:17:57.544 [http-nio-8001-exec-7] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2022-09-04 16:17:57.865 [http-nio-8001-exec-8] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - java.io.IOException: 远程主机强迫关闭了一个现有的连接。

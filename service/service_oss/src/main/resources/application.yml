@@ -1,0 +1,21 @@
+#服务端口
+server:
+  port: 8002
+spring:
+  application:
+    name: service-oss #服务名
+  profiles:
+    active: dev #环境配置
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+#阿里云oss
+aliyun:
+  oss:
+    file:
+      endpoint: oss-cn-beijing.aliyuncs.com
+      keyid: LTAI5t9bNjHc3dPh5WJdg4Uf
+      keysecret: QQaO9pSwORCn8Kn1TSa6FWsVbZgZTl
+      bucketname: edu-fosss

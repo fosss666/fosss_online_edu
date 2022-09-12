@@ -1,0 +1,10 @@
+2022-09-10 21:04:57.786 [http-nio-8001-exec-7] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - nested exception is org.apache.ibatis.reflection.ReflectionException: Could not set property 'isDeleted' of 'class com.fosss.eduservice.entity.EduCourse' with value 'false' Cause: java.lang.IllegalArgumentException: java.lang.ClassCastException@396c2183
+2022-09-10 21:09:14.860 [http-nio-8001-exec-4] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - nested exception is org.apache.ibatis.reflection.ReflectionException: Could not set property 'isDeleted' of 'class com.fosss.eduservice.entity.EduCourse' with value 'false' Cause: java.lang.IllegalArgumentException: argument type mismatch
+2022-09-10 21:17:33.136 [http-nio-8001-exec-7] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - nested exception is org.apache.ibatis.reflection.ReflectionException: Could not set property 'isDeleted' of 'class com.fosss.eduservice.entity.EduCourse' with value 'false' Cause: java.lang.IllegalArgumentException: argument type mismatch
+2022-09-10 21:19:14.508 [http-nio-8001-exec-1] ERROR c.f.s.exceptionHandler.ProjectExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'name' doesn't have a default value
+### The error may involve com.fosss.eduservice.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id,     avatar, sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?,     ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLException: Field 'name' doesn't have a default value
+; Field 'name' doesn't have a default value; nested exception is java.sql.SQLException: Field 'name' doesn't have a default value

@@ -1,0 +1,5 @@
+2022-08-30 15:03:20.449 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-08-30 15:03:20.456 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-08-30 18:32:34.594 [lettuce-nioEventLoop-4-8] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.40.128:6379]: Reconnection attempt exceeded timeout of 60 SECONDS 
+2022-08-30 18:32:45.134 [lettuce-nioEventLoop-4-9] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.40.128:6379]: connection timed out: /192.168.40.128:6379
+2022-08-30 18:32:48.008 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48m28s82ms838µs).

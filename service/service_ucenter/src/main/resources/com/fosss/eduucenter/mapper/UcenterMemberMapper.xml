@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fosss.eduucenter.mapper.UcenterMemberMapper">
+
+
+<!--    返回每日注册人数,用于远程调用-->
+    <!--/*DATE() 函数的作用是进行日期类型的比较*/-->
+    <select id="getRegisterCount" resultType="java.lang.Integer">
+        select count(*) from ucenter_member um where DATE(um.gmt_create)=#{day}
+    </select>
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
